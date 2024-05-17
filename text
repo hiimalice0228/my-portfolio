@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站 - 電影特效師與調光師</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+
+        .content {
+            padding: 2em;
+        }
+
+        .section {
+            margin-bottom: 2em;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 0.5em;
+            font-family: 'Courier New', Courier, monospace;
+            color: #2980b9;
+        }
+
+        .profile img {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 1em;
+        }
+
+        .profile p {
+            text-align: center;
+        }
+
+        .skills ul, .work-experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .work-experience li {
+            background-color: #ecf0f1;
+            margin-bottom: 0.5em;
+            padding: 0.5em;
+            border-left: 4px solid #2980b9;
+        }
+
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em 0;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 0.7em;
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>電影特效師與調光師</h1>
+    </header>
+
+    <nav>
+        <a href="#profile">個人簡介</a>
+        <a href="#work-experience">工作經歷</a>
+        <a href="#skills">技能</a>
+        <a href="#portfolio">作品展示</a>
+        <a href="#contact">聯繫方式</a>
+        <a href="#blog">博客文章</a>
+    </nav>
+
+    <div class="content">
+        <section id="profile" class="section profile">
+            <h2>個人簡介</h2>
+            <img src="profile.jpg" alt="個人照片">
+            <p>你好，我是一位專業的電影特效師與調光師，擁有多年豐富的經驗，參與過多部國內外知名電影的製作。我的專業技能包括特效設計、色彩調整以及影像後期處理。</p>
+        </section>
+
+        <section id="work-experience" class="section work-experience">
+            <h2>工作經歷</h2>
+            <ul>
+                <li>
+                    <h3>XYZ電影公司</h3>
+                    <p>電影特效師 - 2018至今</p>
+                    <p>參與多部大片的特效製作，包括《某某電影》、《另一部電影》等。</p>
+                </li>
+                <li>
+                    <h3>ABC影視工作室</h3>
+                    <p>調光師 - 2015至2018</p>
+                    <p>負責影像調光和色彩校正工作，確保最終影像效果達到導演的要求。</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2>技能</h2>
+            <ul>
+                <li>特效設計</li>
+                <li>色彩調整</li>
+                <li>影像後期處理</li>
+                <li>Adobe After Effects</li>
+                <li>DaVinci Resolve</li>
+                <li>Maya</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="section portfolio">
+            <h2>作品展示</h2>
+            <img src="project1.jpg" alt="作品1">
+            <img src="project2.jpg" alt="作品2">
+            <img src="project3.jpg" alt="作品3">
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>聯繫方式</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="你的名字">
+                <input type="email" name="email" placeholder="你的電子郵件">
+                <textarea name="message" placeholder="你的訊息"></textarea>
+                <button type="submit">發送訊息</button>
+            </form>
+        </section>
+
+        <section id="blog" class="section blog">
+            <h2>博客文章</h2>
+            <article>
+                <h3>文章標題一</h3>
+                <p>這是一篇關於電影特效製作過程的博客文章。</p>
+            </article>
+            <article>
+                <h3>文章標題二</h3>
+                <p>這是一篇關於影像調光技術的博客文章。</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 電影特效師與調光師 個人網站</p>
+    </footer>
+
+</body>
+
+</html>
